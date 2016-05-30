@@ -1,6 +1,8 @@
 <?php
 
-require_once('autoloader.php');
+foreach(glob(dirname(__FILE__)."/includes/*.php") as $filename) {
+	require_once($filename);
+}
 
 function content() {
 	$requested_url = ($_SERVER['REQUEST_URI']);
