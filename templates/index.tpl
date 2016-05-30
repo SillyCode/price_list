@@ -11,30 +11,13 @@
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link href="assets/css/simple-sidebar.css" rel="stylesheet">
-
-</head>
-<body>
-<div id="wrapper">
-
-<?php show_page(__DIR__."/pages/nav_bar.html"); ?>
-<?php show_page(__DIR__."/pages/main_page.html"); ?>
-
-</div>
-<!-- /#wrapper -->
-
 <!-- jQuery -->
 <script src="assets/js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/angular.js"></script>
-<!-- Make it a normal button -->
-
-<!-- Menu Toggle Script -->
-<!--<script>
-$("#menu-toggle").click(function(e) {
-e.preventDefault();
-$("#wrapper").toggleClass("toggled");
-});
-</script>-->
+</head>
+<body>
+This is the first page
 </body>
 </html>
