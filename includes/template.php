@@ -65,7 +65,7 @@ class template {
 	}
 
 	public function render() {
-		$filename = lib::buildpath("templates", "{$this->__template}.tpl");
+		$filename = lib::buildpath(__DIR__."/../templates", "{$this->__template}.tpl");
 		if (file_exists($filename) && strlen($input = @file_get_contents($filename)) > 0) {
 			$this->__stack = array($this->__properties);
 			$this->__offset = 0;
