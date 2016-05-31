@@ -1,6 +1,6 @@
 <!-- /#sidebar-wrapper -->
 <div id="wrapper">
-	_('This is the first page content')
+	Welcome to Price List
 </div>
 </body>
 </html>
