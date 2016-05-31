@@ -24,12 +24,10 @@
 <div id="sidebar-wrapper">
 <ul class="sidebar-nav">
 <li class="sidebar-brand">
-<a href="/calculate">
-__('Calculate')
-</a>
+<a href="#">Calculate</a>
 </li>
 <li>
-<a href="/cpbx_astribank">__('Complete PBX & Astribank')</a>
+<a href="/cpbx_astribank">Complete PBX & Astribank</a>
 </li>
 <li>
 <a href="#">_('PBX & Astribank')</a>
