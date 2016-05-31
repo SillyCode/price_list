@@ -77,6 +77,11 @@ class template {
 		}
 	}
 
+	protected function header() {
+		$tpl = new template('header');
+		$tpl->render();
+	}
+
 	private function render_base64($match, $input) {
 		$this->render_literal($match, $input);
 		if ($this->get($match[2][0], $value) && strlen($value) > 0) {

@@ -2,7 +2,7 @@
 
 class lib {
 
-	function show_page($page) {
+	public function show_page($page) {
 		include($page); //Parse the text
 	}
 
@@ -14,6 +14,20 @@ class lib {
 			}, $arguments);
 			array_unshift($arguments, $first);
 			return implode(DIRECTORY_SEPARATOR, $arguments);
+	}
+
+	public static function request($name) {
+		if (array_key_exists($name, $_REQUEST)) {
+			return $_REQUEST[$name];
+		}
+		return null;
+	}
+
+	public static function post($name) {
+		if (array_key_exists($name, $_POST)) {
+			return $_POST[$name];
+		}
+		return null;
 	}
 }
 
