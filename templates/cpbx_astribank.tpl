@@ -1,5 +1,3 @@
-<html>
-<body>
 <div id="wrapper">
 <div class="container">
   <h2>CompletePBX & Astribanks</h2>
@@ -48,6 +46,3 @@
 <!-- wrapper -->
 </div>
 </div>
-
-</body>
-</html>
