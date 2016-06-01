@@ -40,7 +40,8 @@
 <!-- container   -->
 
 <div class="panel panel-default">
-  <div class="panel-footer"><a href="#">Calculate</a></div>
+  <button type="button" class="btn btn-link btn-sm">Create Quote</button>
+  <button type="button" class="btn btn-link btn-sm">Clear All</button>
 </div>
 
 <!-- wrapper -->
