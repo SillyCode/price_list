@@ -5,7 +5,7 @@
   <h2>CompletePBX & Astribanks</h2>
   <div class="table-responsive">
   <form method="post" autocomplete="off">
-  <table class="table table-hover">
+  <table class="table table-hover table_cpbx_astribank">
     <thead>
       <tr>
        <th>FXS</th>
