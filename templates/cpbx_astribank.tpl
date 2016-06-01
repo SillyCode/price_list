@@ -31,7 +31,7 @@
 
         <td>{astribank}</td>
         <td>{msrp}</td>
-        <td><input type="text" name="{astribank}"/></td>
+        <td><input type="number" min=0 name="{astribank}"/></td>
       </tr>
       {/loop ports}
     </tbody>
