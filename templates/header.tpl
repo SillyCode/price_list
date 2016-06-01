@@ -30,31 +30,31 @@
 <a href="/cpbx_astribank">Complete PBX & Astribank</a>
 </li>
 <li>
-<a href="#">_('PBX & Astribank')</a>
+<a href="#">PBX & Astribank</a>
 </li>
 <li>
-<a href="#">__('High Availability')</a>
+<a href="#">High Availability</a>
 </li>
 <li>
-<a href="#">__('HWEC')</a>
+<a href="#">HWEC</a>
 </li>
 <li>
-<a href="#">__('Complete Concierge')</a>
+<a href="#">Complete Concierge</a>
 </li>
 <li>
-<a href="#">__('IP Phones')</a>
+<a href="#">IP Phones</a>
 </li>
 <li>
-<a href="#">__('Self-Assembly & Spate Parts')</a>
+<a href="#">Self-Assembly & Spate Parts</a>
 </li>
 <li>
-<a href="#">__('Prospect Site Survey')</a>
+<a href="#">Prospect Site Survey</a>
 </li>
 <li>
-<a href="#">__('ERP Import')</a>
+<a href="#">ERP Import</a>
 </li>
 <li>
-<a href="#">__('PBX HW Comparison')</a>
+<a href="#">PBX HW Comparison</a>
 </li>
 </ul>
 </div>
