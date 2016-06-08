@@ -40,7 +40,7 @@
 <!-- container   -->
 
 <div class="panel panel-default">
-  <button type="button" class="btn btn-link btn-sm">Create Quote</button>
+  <button type="button" class="btn btn-link btn-sm create_quote">Create Quote</button>
   <button type="button" class="btn btn-link btn-sm clear_cpbx_astribank">Clear All</button>
 </div>
 

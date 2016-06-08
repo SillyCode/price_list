@@ -25,7 +25,7 @@
 <div id="sidebar-wrapper">
 <ul class="sidebar-nav">
 <li class="sidebar-brand">
-<a href="/calculator">Calculate</a>
+<a class="calc_link" href="/calculator">Calculate</a>
 </li>
 <li>
 <a href="/cpbx_astribank">Complete PBX & Astribank</a>
