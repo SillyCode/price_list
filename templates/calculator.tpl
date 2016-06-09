@@ -1,9 +1,47 @@
 <div id="wrapper">
 <div class="container">
   <h2>Calculator</h2>
-  <div class="table-responsive">
 	<form method="post" autocomplete="off">
-	  <lable>Partner Discount: </label><input type="text" name="partn_discount"/>
+	<div class="row">
+		<div class="col-sm-2">
+			<lable>Partner Discount: </label>
+		</div>
+		<div class="col-sm-2">
+			<input type="text" name="partn_discount"/>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-2">
+			<lable>Local Currency: </label>
+		</div>
+		<div class="col-sm-2">
+			<input type="text" name="local_currency"/>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-2">
+			<lable>Import Levies: </label>
+		</div>
+		<div class="col-sm-2">
+			<input type="text" name="import_levies"/>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-2">
+			<lable>Extended Warranty: </label>
+		</div>
+		<div class="col-sm-2">
+			<select name="warranty">
+				{loop warranties}
+				<option value={pn}>{title}</option>
+				{/loop warranties}
+			</select>
+		</div>
+	</div>
+	<div class="table-responsive">
 	  <table class="table table-hover table_calculator">
 	  <thead>
       <tr>
