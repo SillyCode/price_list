@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<warranties>
+  <warranty>
+	<title>Additional 1-year warranty</title>
+	<pn>WR0001</pn>
+	<percent>6%</percent>
+  </warranty>
+  <warranty>
+	<title>Additional 3-year warranty</title>
+	<pn>WR0002</pn>
+	<percent>15%</percent>
+  </warranty>
+  <warranty>
+	<title>Additional 4-year warranty</title>
+	<pn>WR0006</pn>
+	<percent>20%</percent>
+  </warranty>
+</warranties>
