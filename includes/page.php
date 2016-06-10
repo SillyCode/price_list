@@ -17,7 +17,7 @@ abstract class page extends core_page {
 			$pagename = str_replace(' ', '_', lib::request('p'));
 		}
 		if (strlen($pagename) <= 0) {
-			$pagename = 'nav_menu';
+			$pagename = 'main';
 		}
 		if (($page = static::load_page($pagename)) !== null) {
 			return $page;
